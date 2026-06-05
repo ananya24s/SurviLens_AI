@@ -1,102 +1,140 @@
-# SurviLensAI
+# 🛡️ SurviLensAI
 
-An AI-powered mobile assistant designed for real-world safety, navigation, and emergency support.  
-SurviLensAI combines AI chat, voice interaction, offline maps, vision assistance, and emergency tools into a single mobile system built for critical and low-connectivity environments.
+**SurviLensAI** is an AI-powered mobile application built to assist users in emergency and low-connectivity situations through intelligent navigation, voice interaction, visual assistance, and survival-focused tools.
 
----
-
-## Key Features
-
-AI Assistant  
-Natural language chat with context-aware responses for safety, survival, and navigation.
-
-Voice Interaction  
-Speech-to-text and text-to-speech support for hands-free usage in emergency situations.
-
-Offline Maps  
-Offline location support and navigation designed for low or no network scenarios.
-
-Vision Assistance  
-Camera-based AI assistance for understanding real-world surroundings.
-
-Emergency System  
-Quick-access SOS features and emergency response templates for fast action in critical situations.
-
-Nearby Connectivity (Experimental)  
-Peer-based nearby communication system designed for disaster or offline scenarios.
+The goal of the project is to explore how modern AI can be combined with mobile technologies to provide meaningful assistance when access to information and communication becomes limited.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-React Native (TypeScript)  
-Android Native (Kotlin)  
-iOS Native (Swift / Objective-C Bridge)  
-AI Integration (Tool-calling / LLM APIs)  
-Mapbox for maps and navigation  
-Speech-to-Text and Text-to-Speech APIs  
+### 🤖 AI-Powered Assistant
+- Natural language conversations
+- Context-aware assistance
+- Intelligent tool-calling workflows
+- Survival and safety guidance
 
----
+### 🎙️ Voice Interaction
+- Speech-to-Text support
+- Text-to-Speech responses
+- Hands-free user experience
+- Voice-driven AI communication
 
-## Project Structure
+### 📍 Offline Maps & Navigation
+- Offline map support
+- Location-aware assistance
+- Navigation in low-connectivity environments
+- Route guidance and location utilities
 
-src/  
-components/ – Reusable UI components  
-screens/ – Application screens (Chat, SOS, Maps, Vision, etc.)  
-services/ – AI, vision, and system logic  
-navigation/ – App navigation structure  
-hooks/ – Custom React hooks  
-utils/ – Helper functions and emergency logic  
-theme/ – Styling system and design tokens  
+### 📷 Vision Assistance
+- Camera-based AI interaction
+- Visual understanding of surroundings
+- Contextual guidance from captured scenes
 
----
+### 🚨 Emergency Toolkit
+- Quick-access SOS functionality
+- Emergency response templates
+- Safety-focused utilities
+- Fast access during critical situations
 
-## Setup Instructions
-
-Clone the repository  
-git clone https://github.com/ananya24s/SurviLens_AI.git  
-cd SurviLens_AI  
-
-Install dependencies  
-npm install  
-
-iOS setup  
-cd ios  
-pod install  
-
-Run the app  
-npm run android  
-or  
-npm run ios  
+### 🌐 Nearby Connectivity (Experimental)
+- Peer-to-peer communication concepts
+- Designed for disaster and offline scenarios
+- Exploration of resilient communication systems
 
 ---
 
-## Environment Variables
+## 🛠️ Tech Stack
 
-Create a .env file in the root directory  
-
-OPENAI_API_KEY=your_key_here  
-MAPBOX_ACCESS_TOKEN=your_token_here  
-
----
-
-## Project Highlights
-
-Built for real-world emergency and survival scenarios  
-Works in offline or low-connectivity environments  
-Integrates AI, voice, vision, and maps in a single system  
-Demonstrates production-level React Native architecture  
-Includes native Android and iOS modules  
+- **React Native**
+- **TypeScript**
+- **Android (Kotlin)**
+- **iOS (Swift / Objective-C Bridge)**
+- **Mapbox**
+- **Speech-to-Text APIs**
+- **Text-to-Speech APIs**
+- **AI / LLM Integration**
 
 ---
 
-## Future Improvements
+## 📂 Project Structure
 
-Offline AI inference support  
-Satellite-based emergency fallback system  
-Advanced mesh networking for disaster scenarios  
-Wearable device integration  
-Real-time emergency alert system  
+```text
+src/
+├── components/      # Reusable UI components
+├── screens/         # Application screens
+├── services/        # AI, vision and system services
+├── navigation/      # Navigation architecture
+├── hooks/           # Custom React hooks
+├── utils/           # Utility functions
+└── theme/           # Design system and styling
+```
 
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/ananya24s/SurviLens_AI.git
+cd SurviLens_AI
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### iOS Setup
+
+```bash
+cd ios
+pod install
+```
+
+### Run the Application
+
+```bash
+npm run android
+```
+
+or
+
+```bash
+npm run ios
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+OPENAI_API_KEY=your_key_here
+MAPBOX_ACCESS_TOKEN=your_token_here
+```
+
+---
+
+## 🎯 Highlights
+
+- Built with a focus on **real-world emergency scenarios**
+- Combines **AI, voice, vision, and navigation** into a single platform
+- Designed to remain useful in **low-connectivity environments**
+- Demonstrates integration of **mobile development and intelligent systems**
+- Includes both **cross-platform and native mobile development concepts**
+
+---
+
+## 🔮 Future Scope
+
+- Offline AI inference
+- Advanced mesh networking
+- Disaster response workflows
+- Wearable device integration
+- Real-time emergency alert systems
 
 
